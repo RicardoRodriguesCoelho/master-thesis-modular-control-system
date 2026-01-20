@@ -1,6 +1,14 @@
-# Driver Board – ADuM4135
+# ADuM4135 Gate Driver Board
 
-Alternative isolated driver board developed for the power stage.
+This folder contains the gate driver board implementation based on the **ADuM4135** isolated driver.
+
+## Purpose
+
+- Alternative driver solution with equivalent functionality to the ADuM3223 version
+- Developed due to component availability constraints
+- Fully compatible with the same power main board
 
 ## Notes
-An alternative was implemented and validated when the ADuM4135 became unavailable.
+
+Both driver implementations follow the same system-level architecture and control principles.
+
