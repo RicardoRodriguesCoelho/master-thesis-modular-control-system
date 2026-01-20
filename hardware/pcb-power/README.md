@@ -4,14 +4,10 @@ This folder contains the hardware related to the **power conversion stage** of t
 
 The power electronics are designed to operate as modular units in a **cascaded DC–AC converter topology**, enabling grid-connected operation.
 
----
-
 ## Contents
 
 - `main-board/` – Main power electronics board
 - `driver-boards/` – Isolated gate driver boards used to control the power switches
-
----
 
 ## Design Goals
 
