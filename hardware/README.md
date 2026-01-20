@@ -13,6 +13,6 @@ The hardware was designed with modularity, scalability, and reusability in mind,
 All designs were developed using Altium Designer.
 
 ## Structure
-- `/control-pcba` – Modular control board used as master or slave depending on firmware
+- `/pcb-control` – Modular control board used as master or slave depending on firmware
 - `/pcb-power/main-board` – Main power electronics board
 - `/pcb-power/driver-boards` – Isolated driver boards (ADuM3223 and ADuM4135)
