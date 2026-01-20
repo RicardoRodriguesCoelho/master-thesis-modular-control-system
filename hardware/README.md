@@ -10,8 +10,6 @@ The hardware was designed with **modularity, scalability, and reusability** in m
 
 All designs were developed using **Altium Designer**.
 
----
-
 ## Structure
 
 - `/pcb-control` – Modular control board used as master or slave depending on firmware
