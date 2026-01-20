@@ -1,21 +1,27 @@
 # Control PCBA (Master / Slave)
 
-Modular control PCBA designed to operate either as a master or slave controller,
-depending exclusively on the flashed firmware.
+This folder contains the **control PCBA** used in the decentralized control system.
 
-## Description
-The same hardware platform is used across the system:
-- One board operates as the master controller
-- Additional boards operate as slave controllers
+A single hardware design is used for both **master and slave nodes**.  
+The role of each board is defined **only by the firmware**, not by hardware differences.
 
-The role is defined by the firmware version, enabling a scalable system architecture
-without hardware changes.
+---
 
-## Hardware
-- Compatible with TI LaunchXL-F28379D
-- Designed for modular and decentralized control
-- Interfaces with the power stage and communication network
+## Key Characteristics
 
+- Modular PCBA design
+- Interfaces with the **Texas Instruments LAUNCHXL-F28379D**
+- Supports decentralized control architectures
+- Communication via **SPI and GPIO-based signaling**
+- Enables easy scalability by adding additional slave nodes
 
+---
 
-This approach reduces hardware duplication and improves system scalability and maintainability.
+## Design Rationale
+
+Using the same control PCBA for both master and slave roles simplifies:
+- Manufacturing and assembly
+- Validation and testing
+- System scalability and maintenance
+
+This approach aligns with the modular and reusable design philosophy of the project.
