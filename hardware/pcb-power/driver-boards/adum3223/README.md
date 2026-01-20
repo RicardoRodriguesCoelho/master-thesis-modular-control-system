@@ -1,6 +1,13 @@
-# Driver Board – ADuM3223
+# ADuM3223 Gate Driver Board
 
-Isolated driver board developed for the power stage.
+This folder contains the gate driver board implementation based on the **ADuM3223** isolated driver.
+
+## Purpose
+
+- Provides isolated gate driving for the power switches
+- Interfaces with the main power board
+- Supports safe and reliable switching operation
 
 ## Notes
-This version was created due to component availability constraints during the project.
+
+This version was developed as part of the original design and validated during experimental testing.
