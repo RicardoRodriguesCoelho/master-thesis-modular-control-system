@@ -1,0 +1,21 @@
+# Power Electronics PCBA
+
+This folder contains the hardware related to the **power conversion stage** of the system.
+
+The power electronics are designed to operate as modular units in a **cascaded DC–AC converter topology**, enabling grid-connected operation.
+
+---
+
+## Contents
+
+- `main-board/` – Main power electronics board
+- `driver-boards/` – Isolated gate driver boards used to control the power switches
+
+---
+
+## Design Goals
+
+- Modular and scalable architecture
+- Clear separation between control and power stages
+- Compatibility with different driver board implementations
+- Support for experimental validation and future extensions
