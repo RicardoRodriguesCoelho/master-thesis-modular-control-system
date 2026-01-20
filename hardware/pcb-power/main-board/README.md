@@ -1,11 +1,15 @@
-# Power Board – Main PCB
+# Power Main Board
 
-Main power electronics board responsible for the power conversion stage.
+This folder contains the **main power electronics board** used in each cascaded converter module.
 
-## Scope
-- Power stage topology (DC-AC conversion)
-- Interfaces with modular control boards
-- Supports isolated driver boards
+## Main Features
+
+- Full-bridge DC–AC converter topology
+- Designed for cascaded operation
+- Interfaces with external isolated gate driver boards
+- Validated through simulation and experimental testing
 
 ## Notes
-Detailed schematics and validation results are available in the thesis document.
+
+Detailed electrical schematics, layouts, and validation results are documented in the thesis report.  
+This repository focuses on providing the design files and overall hardware structure.
