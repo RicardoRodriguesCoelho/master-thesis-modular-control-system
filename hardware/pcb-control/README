@@ -16,9 +16,6 @@ without hardware changes.
 - Designed for modular and decentralized control
 - Interfaces with the power stage and communication network
 
-### Functionality
-- Master node: system coordination and global control
-- Slave nodes: local control of individual power submodules
-- Communication via SPI and GPIO signaling
+
 
 This approach reduces hardware duplication and improves system scalability and maintainability.
