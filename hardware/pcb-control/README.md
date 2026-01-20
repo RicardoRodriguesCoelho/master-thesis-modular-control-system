@@ -5,8 +5,6 @@ This folder contains the **control PCBA** used in the decentralized control syst
 A single hardware design is used for both **master and slave nodes**.  
 The role of each board is defined **only by the firmware**, not by hardware differences.
 
----
-
 ## Key Characteristics
 
 - Modular PCBA design
@@ -14,8 +12,6 @@ The role of each board is defined **only by the firmware**, not by hardware diff
 - Supports decentralized control architectures
 - Communication via **SPI and GPIO-based signaling**
 - Enables easy scalability by adding additional slave nodes
-
----
 
 ## Design Rationale
 
